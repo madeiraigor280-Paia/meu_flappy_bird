@@ -1,0 +1,139 @@
+Tela do jogo
+Fundo do jogo
+Background
+Colocando elas na room
+Criar as layers do background e colocar o background na layer
+
+Resolução do jogo
+
+PLAYER!!
+Importar a sprite
+Criar o objeto player
+Layer para o player
+Colocar ele na room
+
+Cair
+Subir ao bater a asa (apertar espaço)
+O passado só pode bater asa quando eu apertar espaço
+
+Bater nos obstaculos
+
+Obstaculos
+Arvorezinha
+Importar sprite
+Criar o objeto
+Criar a layer
+Fazer ele ir para a esquerda
+Fazer o player bater nele e avisar que o player bateu nele
+
+Efeito de morte do Player
+Pare tudo
+	Player não consegue bater asas
+	O background vai parar
+	O inimigo vai parar
+
+Passaro!!!!
+Importar sprite
+Criar o objeto
+Criar layer
+Ir para a esquerda
+Colidir com o player - show_message
+
+Geração procedural do level
+arvore
+de tempo em tempos ele vai criar uma arvore em uma posição especifica
+
+Passaros!
+Intervalo de tempo de spawn maior que o das arvores
+
+Sistema de pontos
+Eu quero ganhar pontos o tempo todo SE eu não perdi o jogo
+
+
+Sistema de level
+Faça ele desenhar a sprite do level no numero certo
+No meio da tela
+
+Ganhando leveis conforme a gente ganha pontos
+
+
+1 - 100
+2 - 250
+3 - 500
+4 - 800
+5 - 1200
+6 - 1800
+7 - 2500 
+8 - 3500
+9 - 5000
+
+Conforme o jogo sobe de level eu aumento a velocidade de todo mundo!!!
+
+Sistema de coletaveis
+Variavel dos coletaveis
+Sprites dos coletaveis
+Exibir a quantidade de coletáveis na tela
+Criar o objeto coletavel
+Fazer ele ir para a esquerda
+Criar a layer dos coletaveis
+
+Quando o player colidir com o coletavel
+O coletável some e eu ganho 1 coletavel
+
+//Criando um efeito de destruição do coletável
+
+Quando a explosão ficar bem transparente, ela se destroi
+
+Desenhar o ícone dos coletáveis junto da quantidade de coletaveis
+
+Tela inicial
+
+Fazer o botão se desenhar
+Criar uma fonte para o botão
+Use a fonte no texto do botão
+Fazer o botão desenhar o texto dele
+
+Faça com o que o draw set font use a variavel fonte que foi criada no variable definition
+
+Quando eu clicar no botão ele vai ficar mais fino e mais alto
+
+Tela loja
+Criar essas variaveis
+csto/valor/preço
+sprite
+bloqueado ( true ou false)
+
+Fazer ele usar a sprite que foi determinada na variavel
+ele vai desenhar debaixo dele o custo dele
+
+Se ele esta bloqueado ele não faz animação
+Checar o tempo todo
+
+SE a pessoa tem dinheiro (coletavel) suficiente e estou bloqueado
+Ai eu posso ser desbloqueado (comprado)
+Eu vou avisar a variavel global dos items bloqueados no meu indice
+que eu estou desbloqueado
+E eu também vou remover dos coletaveis o meu custo
+
+Eu preciso fazer o jogador usar a sprite do cara que eu selecionei
+
+SE eu não estou bloqueado e a pessoa clicou em mim
+Então a sprite global do player vai ser a minha sprite
+SE eu fui comprado agora mesmo, eu também viro a sprite global do player
+
+Quando eu entrar na room inicio ele para de tocar os sons
+Importe o som de level up
+Sempre que o jogador subir de leve toque o som de level up
+
+Efeitos visuais do jogo
+
+Façam eles desativar as demais layers
+E façam eles mudar a cor do botão se os efeitos estão ativos ou não
+
+Crie uma função para ativar ou desativar os efeitos
+Sempre que eu clicar no botão de efeitos ela roda
+Sempre que eu entrar em uma room ela roda
+
+Configurar o jogo para publicar
+Exportar o jogo
+E locais para publicar o jogo
