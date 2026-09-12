@@ -7,6 +7,10 @@ global.perdeu = false
 
 #region metodos
 
+function perde_jogo()
+{
+	alarm[0] = 	
+}
 
 
 #endregion
